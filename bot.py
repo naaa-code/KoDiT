@@ -44,5 +44,4 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, reply))
 
 print("KoDiT Bot sedang berjalan...")
 
-app.run_polling() 
-
+app.run_polling()
